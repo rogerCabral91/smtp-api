@@ -9,7 +9,7 @@ const send_1 = __importDefault(require("./send"));
 const app = (0, express_1.default)();
 const port = parseInt(process.env.PORT, 10) || 3000;
 app.get("/", (_req, res) => {
-    return res.send("Express Typescript on Vercel");
+    return res.send("Nodemailer Express API Typescript on Vercel");
 });
 app.get("/ping", (_req, res) => {
     return res.send("pong 🏓");

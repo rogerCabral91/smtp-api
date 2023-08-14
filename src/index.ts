@@ -6,7 +6,7 @@ const app = express();
 const port: number = parseInt(process.env.PORT as string, 10) || 3000;
 
 app.get("/", (_req: Request, res: Response) => {
-  return res.send("Express Typescript on Vercel");
+  return res.send("Nodemailer Express API Typescript on Vercel");
 });
 
 app.get("/ping", (_req: Request, res: Response) => {
